@@ -13,7 +13,7 @@
 The cannonical date+time+zone entry: d"[-]YYYY-MM-DD hh:mm:ss tzname [G,J]"
 
 * where tzname is the IANA standard timezone name,
-* [G(regorian),J(ulian)] is a calendric specifier; Gregorian is the default.
+* [G(regorian),J(ulian)] defaults to G: proleptic Gregorian with a year zero.
 * the year is given with four digits (preceeded by '-' if it preceeds year zero),
 * all other date and time elements are given with two digits (use a leading '0').
 
