@@ -10,7 +10,7 @@
 
 #####To input a date+time+zone
 
-The cannonical date+time+zone entry: "[-]YYYY-MM-DD hh:mm:ss tzname"
+The cannonical date+time+zone entry: d"[-]YYYY-MM-DD hh:mm:ss tzname"
 
 * where tzname is the IANA standard timezone name,
 * the year is given with four digits (preceeded by '-' if it preceeds year zero),
