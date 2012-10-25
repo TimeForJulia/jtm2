@@ -8,20 +8,15 @@
 
 
 
-#####To input a Date+Time+Zone
+#####To input a date+time+zone
+
+The cannonical date+time+zone entry: "[-]YYYY-MM-DD hh:mm:ss tzname"
+
+* where tzname is the IANA standard timezone name,
+* the year is given with four digits (preceeded by '-' if it preceeds year zero),
+* all other date and time elements are given with two digits (use a leading '0').
 
 
-The cannonical date+time+zone entry follows this pattern:
-
-
-"[-]YYYY-MM-DD hh:mm:ss tzname"
-
-
-where tzname is the IANA standard timezone name,
-
-
-the year is given with four digits (preceeded by '-' if it preceeds year zero),
-all other date and time elements are given with two digits (use a leading '0').
 
 
 ```
