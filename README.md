@@ -32,6 +32,9 @@ SignTreatyOfParis = d"1783-09-03 Paris"
 
 
 
+######d" YYYY-MM-DD hh:mm:ss tzname "
+
+
 * The common date+time+zone entry: d"YYYY-MM-DD hh:mm:ss tzname"
 
   * where tzname is the IANA standard timezone name
