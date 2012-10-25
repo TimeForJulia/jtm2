@@ -65,6 +65,7 @@ SignTreatyOfParis = d"1783-09-03 Paris"
 
 ##### some IANA timezone names
 
+<table><tr><td>
 <table>
 
   <tr>
@@ -82,4 +83,4 @@ SignTreatyOfParis = d"1783-09-03 Paris"
    <tr>  <td>"America/Sao_Paulo"</td>    <td>"Asia/Singapore"</td>  <td>"Europe/Paris"</td>     <td>"Australia/Melbourne"</td> </tr>
    <tr>  <td>"America/Toronto"</td>      <td>"Asia/Tokyo"</td>      <td>"Europe/Stockholm"</td> <td>"Australia/Sydney"</td>    </tr>
 
-</table>
+</table></td></tr></table>
