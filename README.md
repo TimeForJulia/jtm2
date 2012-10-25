@@ -37,7 +37,7 @@ The cannonical date+zone entry: d"[-]YYYY-MM-DD tzname [G,J]"
 # September 14th, 2009 at 3:30pm in Cambridge
 JuliaGetsAbstract = d"2009-09-14 15:30:00 America/New_York"
 
-# September 3rd, 1783 at 10:30:00am in Paris
+# September 3rd, 1783 in Paris
 SignTreatyOfParis = d"1783-09-03 Europe/Paris"
 
 # IANA standard timezone city names are unique;
