@@ -71,42 +71,15 @@ SignTreatyOfParis = d"1783-09-03 Paris"
     <th>America</th>
     <th>Asia</th>
     <th>Europe</th>
+    <th>Australia</th>
   </tr>
 
-
-
-   <tr>  <td>"America/Toronto"</td>        <td>"Asia/Dubai"</td>          <td>"Europe/Berlin"</td>    </tr>
-   <tr>  <td>"America/Chicago"</td>        <td>"Asia/Hong_Kong"</td>      <td>"Europe/Helsinki"</td>  </tr>
-   <tr>  <td>"America/Denver"</td>         <td>"Asia/Jerusalem"</td>      <td>"Europe/London"</td>    </tr>
-   <tr>  <td>"America/Los_Angeles"</td>    <td>"Asia/Seoul"</td>          <td>"Europe/Madrid"</td>    </tr>
-   <tr>  <td>"America/New_York"</td>       <td>"Asia/Shanghai"</td>       <td>"Europe/Moscow"</td>    </tr>
-   <tr>  <td>"America/Mexico_City"</td>    <td>"Asia/Singapore"</td>      <td>"Europe/Paris"</td>     </tr>
-   <tr>  <td>"America/Sao_Paulo"</td>      <td>"Asia/Tokyo"</td>          <td>"Europe/Stockholm"</td> </tr>
+   <tr>  <td>"America/Toronto"</td>        <td>"Asia/Dubai"</td>          <td>"Europe/Berlin"</td>    <td>"Australia/Adelaide"</td>  </tr>
+   <tr>  <td>"America/Chicago"</td>        <td>"Asia/Hong_Kong"</td>      <td>"Europe/Helsinki"</td>  <td>"Australia/Darwin"</td>    </tr>
+   <tr>  <td>"America/Denver"</td>         <td>"Asia/Jerusalem"</td>      <td>"Europe/London"</td>    <td>"Australia/Hobart"</td>    </tr>
+   <tr>  <td>"America/Los_Angeles"</td>    <td>"Asia/Seoul"</td>          <td>"Europe/Madrid"</td>    <td>"Australia/Perth"</td>     </tr>
+   <tr>  <td>"America/New_York"</td>       <td>"Asia/Shanghai"</td>       <td>"Europe/Moscow"</td>    <td>"Australia/Brisbane"</td>  </tr>
+   <tr>  <td>"America/Mexico_City"</td>    <td>"Asia/Singapore"</td>      <td>"Europe/Paris"</td>     <td>"Australia/Melbourne"</td> </tr>
+   <tr>  <td>"America/Sao_Paulo"</td>      <td>"Asia/Tokyo"</td>          <td>"Europe/Stockholm"</td> <td>"Australia/Sydney"</td>    </tr>
 
 </table>
-
-* some IANA timezone names
-     * region: America
-         * "America/Toronto" 
-         * "America/Chicago" 
-         * "America/Denver"
-         * "America/Los_Angeles"
-         * "America/New_York"
-         * "America/Mexico_City"
-         * "America/Sao_Paulo"
-     * region: Asia
-         * "Asia/Dubai"
-         * "Asia/Hong_Kong"
-         * "Asia/Jerusalem"
-         * "Asia/Seoul"
-         * "Asia/Shanghai"
-         * "Asia/Singapore"
-         * "Asia/Tokyo"
-     * region: Europe
-         * "Europe/Berlin"
-         * "Europe/Helsinki"
-         * "Europe/London"
-         * "Europe/Madrid"
-         * "Europe/Moscow"
-         * "Europe/Paris"
-         * "Europe/Stockholm"
