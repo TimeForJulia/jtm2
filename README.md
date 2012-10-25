@@ -64,28 +64,28 @@ SignTreatyOfParis = d"1783-09-03 Paris"
 <p></br></p>
 
 
-* some of the IANA standard timezone names
-     * region: America 
-         * America/Chicago 
-         * America/Denver
-         * America/Los_Angeles
-         * America/New_York
-         * America/Montreal
-         * America/Toronto
+* some IANA timezone names
+     * region: America
+         * "America/Toronto" 
+         * "America/Chicago" 
+         * "America/Denver"
+         * "America/Los_Angeles"
+         * "America/New_York"
+         * "America/Mexico_City"
+         * "America/Sao_Paulo"
      * region: Asia
-         * Asia/Dubai
-         * Asia/Hong_Kong
-         * Asia/Jerusalem
-         * Asia/Seoul
-         * Asia/Shanghai
-         * Asia/Singapore
-         * Asia/Tokyo
+         * "Asia/Dubai"
+         * "Asia/Hong_Kong"
+         * "Asia/Jerusalem"
+         * "Asia/Seoul"
+         * "Asia/Shanghai"
+         * "Asia/Singapore"
+         * "Asia/Tokyo"
      * region: Europe
-         * Europe/Berlin
-         * Europe/Helsinki
-         * Europe/London
-         * Europe/Madrid
-         * Europe/Moscow
-         * Europe/Paris
-         * Europe/Rome
-         * Europe/Stockholm
+         * "Europe/Berlin"
+         * "Europe/Helsinki"
+         * "Europe/London"
+         * "Europe/Madrid"
+         * "Europe/Moscow"
+         * "Europe/Paris"
+         * "Europe/Stockholm"
