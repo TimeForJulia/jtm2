@@ -16,6 +16,9 @@
 # September 14th, 2009 at 3:30pm in Cambridge
 JuliaGetsAbstract = d"2009-09-14 15:30:00 America/New_York"
 
+# local threshold of the new millenium
+AuldLangSygne = d"2001-01-01 00:00:00"
+
 # September 3rd, 1783 in Paris
 SignTreatyOfParis = d"1783-09-03 Europe/Paris"
 
