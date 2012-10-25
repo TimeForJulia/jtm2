@@ -63,6 +63,23 @@ SignTreatyOfParis = d"1783-09-03 Paris"
 
 <p></br></p>
 
+<table>
+  <tr>
+    <th>America</th>
+    <th>Asia</th>
+    <th>Europe</th>
+  </tr>
+  <tr>
+    <td>"America/Toronto"</td>
+    <td>"Asia/Dubai"</td>
+    <td>"Europe/Berlin"</td>
+  </tr>
+  <tr>
+    <td>"America/Chicago"</td>
+    <td>"Asia/Hong_Kong"</td>
+    <td>"Europe/Helsinki"</td>
+  </tr>
+</table>
 
 * some IANA timezone names
      * region: America
