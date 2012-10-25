@@ -27,8 +27,8 @@ whenwhere = d"2010-01-22 08:30:00 America/Chicago"
 # October 30th, 1865 at 11:59:59pm in Paris
 whenwhere = d"1865-10-30 11:59:59 Europe/Paris"
 
-# IANA standard timezone city names are unique
-# One may use the city name to indicate its timezone.
+# IANA standard timezone city names are unique;
+# one may name the city to indicate its timezone.
 #
 # whenwhere = d"2010-01-22 08:30:00 Chicago"
 # whenwhere = d"1865-10-30 11:59:59 Paris"
