@@ -63,22 +63,26 @@ SignTreatyOfParis = d"1783-09-03 Paris"
 
 <p></br></p>
 
+##### some IANA timezone names
+
 <table>
+
   <tr>
     <th>America</th>
     <th>Asia</th>
     <th>Europe</th>
   </tr>
-  <tr>
-    <td>"America/Toronto"</td>
-    <td>"Asia/Dubai"</td>
-    <td>"Europe/Berlin"</td>
-  </tr>
-  <tr>
-    <td>"America/Chicago"</td>
-    <td>"Asia/Hong_Kong"</td>
-    <td>"Europe/Helsinki"</td>
-  </tr>
+
+
+
+   <tr>  <td>"America/Toronto"</td>        <td>"Asia/Dubai"</td>          <td>"Europe/Berlin"</td>    </tr>
+   <tr>  <td>"America/Chicago"</td>        <td>"Asia/Hong_Kong"</td>      <td>"Europe/Helsinki"</td>  </tr>
+   <tr>  <td>"America/Denver"</td>         <td>"Asia/Jerusalem"</td>      <td>"Europe/London"</td>    </tr>
+   <tr>  <td>"America/Los_Angeles"</td>    <td>"Asia/Seoul"</td>          <td>"Europe/Madrid"</td>    </tr>
+   <tr>  <td>"America/New_York"</td>       <td>"Asia/Shanghai"</td>       <td>"Europe/Moscow"</td>    </tr>
+   <tr>  <td>"America/Mexico_City"</td>    <td>"Asia/Singapore"</td>      <td>"Europe/Paris"</td>     </tr>
+   <tr>  <td>"America/Sao_Paulo"</td>      <td>"Asia/Tokyo"</td>          <td>"Europe/Stockholm"</td> </tr>
+
 </table>
 
 * some IANA timezone names
