@@ -20,6 +20,7 @@ The cannonical date+time+zone entry: d"[-]YYYY-MM-DD hh:mm:ss tzname [G,J]"
   * use the tzname "GMT" to input date+time in leapsecond-free pseudotime
       * disrecommended: only for coordinating with temporally unkempt systems
 * [G(regorian),J(ulian)] defaults to G: proleptic Gregorian with a year zero.
+  * at present, the Julian calendar option is an inactive placeholder
 * the year is given with four digits (leading '0's are used as appropriate)
   * prefix '-' to years preceeding year zero ('+' may prefix nonnegative years)
 * all other date and time elements are given with two digits ('01', '59').
@@ -28,7 +29,8 @@ The cannonical date+zone entry: d"[-]YYYY-MM-DD tzname [G,J]"
 
 * the entry itself is aware that the time-of-day has not been specified
 * if required (e.g. for subtraction), the time-of-day will be 11:59:59.875
-* (» internally, (7//8)*(10^3) and (7//8)*(2^10) are integral subseconds «)
+  * internally, secs.875 is exactly representable base ten and base two
+  * 10 subsecond bits: (7//8)*(1000) == 875 and (7//8)*(1024) == 896
 
 
 
