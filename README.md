@@ -83,3 +83,7 @@ SignTreatyOfParis = d"1783-09-03 Paris"
    <tr>  <td>"America/Toronto"</td>      <td>"Asia/Tokyo"</td>      <td>"Europe/Stockholm"</td> <td>"Australia/Sydney"</td>    </tr>
 
 </table>
+
+
+<p></br></p>
+
