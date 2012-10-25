@@ -27,17 +27,17 @@ The cannonical date+zone entry: d"[-]YYYY-MM-DD tzname [G,J]"
 
 
 ```
-# January 5th, 2010 at 8:30am in Chicago
-whenwhere = d"2010-01-22 08:30:00 America/Chicago"
+# September 14th, 2009 at 3:30pm in Cambridge
+JuliaGetsAbstract = d"2009-09-14 15:30:00 America/New_York"
 
 # September 3rd, 1783 at 10:30:00am in Paris
-TreatyOfParis = d"1783-09-03 Europe/Paris"
+SignTreatyOfParis = d"1783-09-03 Europe/Paris"
 
 # IANA standard timezone city names are unique;
 # one may name the city to indicate its timezone.
 #
-# whenwhere = d"2010-01-22 08:30:00 Chicago"
-# whenwhere = d"1783-09-03 Paris"
+# JuliaGetsAbstract = d"2009-09-14 15:30:00 New_York"
+# SignTreatyOfParis = d"1783-09-03 Paris"
 
 ```
 
