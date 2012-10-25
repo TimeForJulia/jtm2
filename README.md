@@ -29,7 +29,7 @@ SignTreatyOfParis = d"1783-09-03 Paris"
 
 
 
-> The common date+time+zone entry: d"YYYY-MM-DD hh:mm:ss tzname"
+* The common date+time+zone entry: d"YYYY-MM-DD hh:mm:ss tzname"
 
   * where tzname is the IANA standard timezone name
     * if omitted, the local timezone (e.g. from getenv("TZ")) is used.
@@ -37,7 +37,7 @@ SignTreatyOfParis = d"1783-09-03 Paris"
   * use the tzname "GMT" to input date+time in leapsecond-free pseudotime
      * disrecommended: only for coordinating with temporally unkempt systems
 
-> The cannonical date+time+zone entry: d"[-]YYYY-MM-DD hh:mm:ss tzname [G,J]"
+* The cannonical date+time+zone entry: d"[-]YYYY-MM-DD hh:mm:ss tzname [G,J]"
 
   * the year is given with four digits (leading '0's are used as appropriate)
     * prefix '-' to years preceeding year zero ('+' may prefix nonnegative years)
@@ -45,7 +45,7 @@ SignTreatyOfParis = d"1783-09-03 Paris"
   * [G(regorian),J(ulian)] defaults to G: proleptic Gregorian with a year zero.
     * at present, the Julian calendar option is an inactive placeholder
 
-> The cannonical date+zone entry: d"[-]YYYY-MM-DD tzname [G,J]"
+* The cannonical date+zone entry: d"[-]YYYY-MM-DD tzname [G,J]"
 
   * the entry itself is aware that the time-of-day has not been specified
   * if required (e.g. for subtraction), the time-of-day will be 11:59:59.875
