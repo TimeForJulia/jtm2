@@ -16,6 +16,7 @@ The cannonical date+time+zone entry: d"[-]YYYY-MM-DD hh:mm:ss tzname [G,J]"
   * if omitted, the local timezone (e.g. from getenv("TZ")) is used.
   * use the tzname "UTC" to input date+time in Universal Coordinated Time
   * use the tzname "TAI" to input date+time in International Atomic Time
+      * avoid using TAI times unless your work involves TAI valued data
   * use the tzname "GMT" to input date+time in leapsecond-free pseudotime
       * disrecommended: only for coordinating with temporally unkempt systems
 * [G(regorian),J(ulian)] defaults to G: proleptic Gregorian with a year zero.
