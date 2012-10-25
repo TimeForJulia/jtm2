@@ -35,9 +35,9 @@ SignTreatyOfParis = d"1783-09-03 Europe/Paris"
 
 # IANA standard timezone city names are unique;
 # one may name the city to indicate its timezone.
-#
-# JuliaGetsAbstract = d"2009-09-14 15:30:00 New_York"
-# SignTreatyOfParis = d"1783-09-03 Paris"
+
+JuliaGetsAbstract = d"2009-09-14 15:30:00 New_York"
+SignTreatyOfParis = d"1783-09-03 Paris"
 
 ```
 
