@@ -1,5 +1,6 @@
-tm4julia
-========
+###tm4julia (partial preview)
+<small>Jeffrey A. Sarnoff (2012-Oct-24)</small>
+
 
 **Pre-Release caution**: *pervasive operational correctness not assured.*
 
