@@ -31,6 +31,31 @@ SignTreatyOfParis = d"1783-09-03 Paris"
 ```
 
 
+##### some IANA timezone names
+
+<table>
+
+  <tr>
+    <th>America</th>
+    <th>Asia</th>
+    <th>Europe</th>
+    <th>Australia</th>
+  </tr>
+
+   <tr>  <td>"America/Chicago"</td>      <td>"Asia/Dubai"</td>      <td>"Europe/Berlin"</td>    <td>"Australia/Adelaide"</td>  </tr>
+   <tr>  <td>"America/Denver"</td>       <td>"Asia/Hong_Kong"</td>  <td>"Europe/Helsinki"</td>  <td>"Australia/Darwin"</td>    </tr>
+   <tr>  <td>"America/Los_Angeles"</td>  <td>"Asia/Jerusalem"</td>  <td>"Europe/London"</td>    <td>"Australia/Hobart"</td>    </tr>
+   <tr>  <td>"America/New_York"</td>     <td>"Asia/Seoul"</td>      <td>"Europe/Madrid"</td>    <td>"Australia/Perth"</td>     </tr>
+   <tr>  <td>"America/Mexico_City"</td>  <td>"Asia/Shanghai"</td>   <td>"Europe/Moscow"</td>    <td>"Australia/Brisbane"</td>  </tr>
+   <tr>  <td>"America/Sao_Paulo"</td>    <td>"Asia/Singapore"</td>  <td>"Europe/Paris"</td>     <td>"Australia/Melbourne"</td> </tr>
+   <tr>  <td>"America/Toronto"</td>      <td>"Asia/Tokyo"</td>      <td>"Europe/Stockholm"</td> <td>"Australia/Sydney"</td>    </tr>
+
+</table>
+
+
+<p></br></p>
+
+
 
 #####d" year-mo-dy hr:mi:cs tzname "
 
@@ -62,28 +87,3 @@ SignTreatyOfParis = d"1783-09-03 Paris"
      * with 10 subsecond bits: (7//8)*(1000) == 875 and (7//8)*(1024) == 896
 
 <p></br></p>
-
-##### some IANA timezone names
-
-<table>
-
-  <tr>
-    <th>America</th>
-    <th>Asia</th>
-    <th>Europe</th>
-    <th>Australia</th>
-  </tr>
-
-   <tr>  <td>"America/Chicago"</td>      <td>"Asia/Dubai"</td>      <td>"Europe/Berlin"</td>    <td>"Australia/Adelaide"</td>  </tr>
-   <tr>  <td>"America/Denver"</td>       <td>"Asia/Hong_Kong"</td>  <td>"Europe/Helsinki"</td>  <td>"Australia/Darwin"</td>    </tr>
-   <tr>  <td>"America/Los_Angeles"</td>  <td>"Asia/Jerusalem"</td>  <td>"Europe/London"</td>    <td>"Australia/Hobart"</td>    </tr>
-   <tr>  <td>"America/New_York"</td>     <td>"Asia/Seoul"</td>      <td>"Europe/Madrid"</td>    <td>"Australia/Perth"</td>     </tr>
-   <tr>  <td>"America/Mexico_City"</td>  <td>"Asia/Shanghai"</td>   <td>"Europe/Moscow"</td>    <td>"Australia/Brisbane"</td>  </tr>
-   <tr>  <td>"America/Sao_Paulo"</td>    <td>"Asia/Singapore"</td>  <td>"Europe/Paris"</td>     <td>"Australia/Melbourne"</td> </tr>
-   <tr>  <td>"America/Toronto"</td>      <td>"Asia/Tokyo"</td>      <td>"Europe/Stockholm"</td> <td>"Australia/Sydney"</td>    </tr>
-
-</table>
-
-
-<p></br></p>
-
