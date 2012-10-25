@@ -1,4 +1,4 @@
-###tm4julia (partial preview)
+###tm4julia: a partial preview for developers
 <small>Jeffrey A. Sarnoff (2012-Oct-24)</small>
 
 
