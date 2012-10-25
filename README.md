@@ -57,7 +57,7 @@ SignTreatyOfParis = d"1783-09-03 Paris"
 
 
 
-#####d" year-mo-dy hr:mi:cs tzname "
+#####details on using d" <date> <time> <tzname> "
 
 
 * The common date+time+zone entry: d"YYYY-MM-DD hh:mm:ss tzname"
