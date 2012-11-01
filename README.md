@@ -13,14 +13,18 @@
 
 ```
 
-# September 14th, 2009 at 3:30pm in Cambridge
+# September 14th, 2009 at 3:30pm in Cambridge, MA
 JuliaGetsAbstract = d"2009-09-14 15:30:00 America/New_York"
+
+# September 3rd, 1783 in Paris
+SignTreatyOfParis = d"1783-09-03 Europe/Paris"
 
 # local threshold of the new millenium
 AuldLangSygne = d"2001-01-01 00:00:00"
 
-# September 3rd, 1783 in Paris
-SignTreatyOfParis = d"1783-09-03 Europe/Paris"
+# UTC threshold of the prior millenium in the Julian calendar
+AulderLangSygne = d"1901-01-01 00:00:00 UTC Julian"
+AulderLangSygne = d"1901-01-01 00:00:00 UTC J"
 
 # IANA standard timezone city names are unique;
 # one may name the city to indicate its timezone.
@@ -61,7 +65,7 @@ SignTreatyOfParis = d"1783-09-03 Paris"
 #####using d" \<date\> \<time\> \<tzname\> "
 
 
-* The common date+time+zone entry: d"YYYY-MM-DD hh:mm:ss tzname"
+* common date+time+zone entry: d"YYYY-MM-DD hh:mm:ss tzname"
 
   * where tzname is the IANA standard timezone name
      * if omitted, the local timezone (e.g. from getenv("TZ")) is used.
@@ -71,17 +75,27 @@ SignTreatyOfParis = d"1783-09-03 Paris"
 
 <p></br></p>
 
-* The cannonical date+time+zone entry: d"[-]YYYY-MM-DD hh:mm:ss tzname [G,J]"
+* date+time+zone entry: d"[-]YYYY-MM-DD hh:mm:ss tzname"
 
   * the year is given with four digits (leading '0's are used as appropriate)
      * prefix '-' to years preceeding year zero ('+' may prefix nonnegative years)
   * all other date and time elements are given with two digits ('01', '59')
-  * [G(regorian),J(ulian)] defaults to G: proleptic Gregorian with a year zero.
-     * at present, the Julian calendar option is an inactive placeholder
+  * Calendar system used is a proleptic Gregorian calendar with a year zero.
 
 <p></br></p>
 
-* The cannonical date+zone entry: d"[-]YYYY-MM-DD tzname [G,J]"
+* date+time+zone+calendar entry: d"[-]YYYY-MM-DD hh:mm:ss tzname [G,J,Gregorian,Julian]"
+
+  * the year is given with four digits (leading '0's are used as appropriate)
+     * prefix '-' to years preceeding year zero ('+' may prefix nonnegative years)
+  * all other date and time elements are given with two digits ('01', '59')
+  * Calendar system used with [G,Gregorian] is proleptic Gregorian with a year zero.
+  * Calendar system used with [J,Julian] is proleptic Julian with a year zero.
+
+
+<p></br></p>
+
+* date+zone entry: d"[-]YYYY-MM-DD tzname [G,J,Gregorian,Julian]"
 
   * the entry itself is aware that the time-of-day has not been specified
   * if required (e.g. for subtraction), the time-of-day will be 11:59:59.875
